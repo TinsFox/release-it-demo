@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "release": "release-it --ci"
+    "release": "release-it"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "release-it": "^15.4.1"
+  },
+  "devDependencies": {
+    "@release-it/conventional-changelog": "^5.1.0"
   }
 }
